@@ -69,5 +69,12 @@ E. 以上皆非
   1. 影像處理(image processing), 資料壓縮(data compression), 圖像識別(pattern recognition), 機器學習(machine learning), 統計與資料分析(statistics and data analysis)
   2. 資管: 統計學
 
+## Chap 1: Axioms of Probability
+* 1.1: Introduction
+ * (a) Classical probability
+ * (b) Relative frequency probability
+ * (c) Subjective probability
+
+
 
 22/9/12
