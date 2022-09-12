@@ -77,6 +77,12 @@ ANS : D -> 基於大數法則，D可以進行更多次博弈，亦更接近於�
  * (b) Relative frequency probability
  * (c) Subjective probability
 
+* 以上三種機率理論不論採用那一個都必需滿足一些前提, 才能進行機率演算
+* 拋開這三種機率理論解釋, 完全由機率的性質及演算方法來定義機率,一般稱為公設的(axiomatic)機率理論
+* 公設的選取需具備簡單,無爭議性,及不需驗證的特性
+## 1.2 Sample Space and Events
+* If the outcome of an experiment is not certain but all of its possible outcomes are predictable in advance, then the set of all these possible outcomes is called the sample spaceof the experiment and is usually denoted by S.Therefore, the sample space of an experiment consists of all possible outcomes of the experiment. These outcomes are sometimes called sample points, or simply points, of the sample space. In the language of probability, certain subsets of S are referred to as events. So events are sets of points of the sample space.
+* See examples 1.1~1.6
 
 
 22/9/12
