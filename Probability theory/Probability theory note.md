@@ -1,4 +1,4 @@
-Collected by : JingShing
+Collected and noted by : JingShing
 
 # Probability theory note 機率論筆記
 
