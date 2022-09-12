@@ -84,5 +84,8 @@ ANS : D -> 基於大數法則，D可以進行更多次博弈，亦更接近於�
 * If the outcome of an experiment is not certain but all of its possible outcomes are predictable in advance, then the set of all these possible outcomes is called the sample spaceof the experiment and is usually denoted by S.Therefore, the sample space of an experiment consists of all possible outcomes of the experiment. These outcomes are sometimes called sample points, or simply points, of the sample space. In the language of probability, certain subsets of S are referred to as events. So events are sets of points of the sample space.
 * See examples 1.1~1.6
 
+## References
+* 林惠玲、陳正蒼:應用統計學四版
+* S. Ghahramani: Fundamentals of Probability (with stochastic processes),3th Edition, Pearson Education Limited(滄海書局)
 
 22/9/12
