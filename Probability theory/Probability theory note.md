@@ -214,6 +214,19 @@ $N=8,\; and\; N(A)=4, P(A)=\frac{4}{8}=\frac{1}{2}$
 
 For any event $A,\,P(A^c)=1-P(A)$
 
-$S = A\bigcup A^c \rightarrow 1 = P(S) = P(A)+P(A^c)\rightarrow P(A^c)=1-P(A)$
+$S = A\bigcup A^c \rightarrow 1 = P(S) = P(A)+P(A^c)\Rightarrow P(A^c)=1-P(A)$
+
+**<u>## Theorem 1.5</u>**
+
+If $A \subseteq B$ ($A$ 包含於 $B$)  then
+
+$P(B-A)=P(BA^c)=P(B)-P(A)$
+
+$\because\;B=BA\bigcup BA^c,\;P(B)=P(BA)+P(BA^c)=P(A)+P(B-A)\rightarrow P(B)-P(A)=P(B-A)$
+
+* wrong case : roll dice
+  * $B\{1, 2\}.\;A\{3,4,5\},P(B-A)=?$
+  * using theorem 1.5 $\rightarrow P(B-A)=P(B)-P(A)=\frac{2}{6}-\frac{3}{6}=-\frac{1}{6}$  (X)
+  * right Answer is $P(B-A)=\frac{2}{6}$ since $A\subsetneq B$
 
 > date:22/9/13
