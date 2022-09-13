@@ -216,7 +216,7 @@ For any event $A,\,P(A^c)=1-P(A)$
 
 $S = A\bigcup A^c \rightarrow 1 = P(S) = P(A)+P(A^c)\Rightarrow P(A^c)=1-P(A)$
 
-## **Theorem 1.5**
+### **Theorem 1.5**
 
 If $A \subseteq B$ ($A$ 包含於 $B$)  then
 
