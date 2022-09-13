@@ -108,4 +108,4 @@ P(A): Probability of A
 * Axiom 2
  * P(S) = 1
 * Axiom 3
- * if { $A_1$, $A_2$, $A_3$ .. $A_n$ } is a sequence of mutually exclusive(互斥) events(i.e. the joint occurence of every pair of them is impossible : $A_iA_j$ = $\phi$)
+ * if { $A_1$, $A_2$, $A_3$ .. $A_n$ } is a sequence of mutually exclusive(互斥) events(i.e. the joint occurence of every pair of them is impossible : $A_iA_j$ = $\phi$ when (i$\neq$j)
