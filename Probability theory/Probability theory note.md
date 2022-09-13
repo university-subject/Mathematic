@@ -186,4 +186,34 @@ $P({H})=\frac{1}{2}$
 
 using Axiom 2 and Axiom 3
 
+## Theorem 1.3
+
+If S has N points that are all equally likely to occur, then for any event A of S $P(A)=\frac{N(A)}{N}$
+
+### Example 1.11
+
+flip 3 times coin A be the event of at least two heads
+
+$S = \{HHH,HHT,HTH,HTT,THH,THT,TTH,TTT\}$
+
+$A={HHH,HTH,HHT,THH}$
+
+$N=8,\; and\; N(A)=4, P(A)=\frac{4}{8}=\frac{1}{2}$
+
+### Example 1.12
+
+3站2人下車，求不同站機率：$\frac{3 \times 2}{3 \times 3} = \frac{2}{3}$
+
+### Example 1.13
+
+1~1000選能被3整除的數字：$\frac{333}{1000}$
+
+## 1-4 Basic Theorems
+
+### theorem 1.4
+
+For any event $A,\,P(A^c)=1-P(A)$
+
+$S = A\bigcup A^c \rightarrow 1 = P(S) = P(A)+P(A^c)\rightarrow P(A^c)=1-P(A)$
+
 > date:22/9/13
