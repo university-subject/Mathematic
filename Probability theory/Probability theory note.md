@@ -102,7 +102,7 @@ ANS : D -> 基於大數法則，D可以進行更多次博弈，亦更接近於�
 * 林惠玲、陳正蒼:應用統計學四版
 * S. Ghahramani: Fundamentals of Probability (with stochastic processes),3th Edition, Pearson Education Limited(滄海書局)
 
-22/9/12
+2022-09-12
 
 ## 1-3 Axioms of Probability
 
@@ -119,10 +119,71 @@ A: event
 P(A): Probability of A
 
 * Axiom 1
- * P(A) >= 0
+  * $P(A) \geq 0$
 * Axiom 2
- * P(S) = 1
+  * $P(S) = 1$
 * Axiom 3
- * if { $A_1$, $A_2$, $A_3$ .. $A_n$ } is a sequence of mutually exclusive(互斥) events(i.e. the joint occurence of every pair of them is impossible : $A_iA_j$ = $\phi$ when ( $ i \neq j $ ) then $P(\bigcup_{i=1}^{\infty}A_i)=\sum_{i=1}^\infty P(A_i)$
+  * if { $A_1$, $A_2$, $A_3$ .. $A_n$ } is a sequence of mutually exclusive(互斥) events(i.e. the joint occurence of every pair of them is impossible : $A_iA_j = \phi$ when ( $ i \neq j $ ) then $P(\bigcup_{i=1}^{\infty}A_i)=\sum_{i=1}^\infty P(A_i)$
+
+**Equally likely** -> if A and B are equally likely means that $P(A) = P(B)$
+
+## Theorem 1.1
+
+the probability of the empty set $\phi$ is 0. Thus $P(\phi) = 0$
+
+Let $A_1 = S$ and $A_i = \phi$ for $i \geq 2$ then $A_1, A_2, .., A_n$ is a sequence of mutually exclusive event set.
+
+$P(S) = P(\bigcup_{i=1}^{\infty}A_i) = \sum_{i=1}^\infty P(A_i) = P(S) + \sum_{i=2}^\infty P(A_i) = P(S) + \sum_{i=1}^\infty P(\phi)$
+
+implying that $\sum_{i=1}^\infty P(\phi) = 0$. That is possible only if $P(\phi)=0$
+
+* Axiom 1 -> $P(S) = 1$
+* Axiom 2 -> $P(A)\geq0$
+
+$P(A_1 \bigcup A_2)=P(A_1)+P(A_2)$
+
+### Note
+
+(1) example:roll the dice
+
+(2) relation to axiom 3
+
+(3) example:the sample points are infinite
+
+以投骰子為例：
+
+令 $A_n$ 表示扔骰子一直到第 n 次才出現6的事件
+
+$P(\bigcup_{i=1}^{\infty}A_i)=$ 扔骰子直到出現 6 的機率
+
+$\bigcup_{i=1}^{\infty}A_i=$ 扔骰子直到出現 6 的事件
+
+$P(A_i) = (\frac{5}{6}^{i-1})(\frac{1}{6}) = \frac{1}{6} \frac{1 - (\frac{5}{6}^{i-1})}{1 - \frac{5}{6}}$ (等比公式)
+
+等比公式：$a^{n+1} = a_1 . \frac{1-r^n}{1-r}$
+
+$\frac{5}{6}^{i-1} = $ (前 $i-1$ 次沒出現 6)沒有扔到 6 的事件
+
+$\frac{1}{6} = $ 扔到 6 的事件
+
+
+
+$P(A\bigcup A^c) = P(A) + P(A^c) = P(S) = 1$
+
+## Example 1.9
+
+A coin is called unbiased or fair.
+
+The sample space $S = \{T, H\}$ (T means tail, H means head)
+
+$P(S) = P(\{T, H\}) = P(\{T\}+P(\{H\})$
+
+$\{T\},\{H\}$ are equally likely, so $P(\{T\}=P(\{H\})$
+
+$1 = P(S) = P(\{T, H\})=P(\{T\}+P(\{H\})=2P({H})$
+
+$P({H})=\frac{1}{2}$
+
+using Axiom 2 and Axiom 3
 
 22/9/13
