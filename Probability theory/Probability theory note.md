@@ -108,4 +108,4 @@ P(A): Probability of A
 * Axiom 2
  * P(S) = 1
 * Axiom 3
- * if {$A_1$, $A_2$, $A_3$ .. $A_n$} 
+ * if {$A_{1}$, $A_2$, $A_3$ .. $A_n$} 
