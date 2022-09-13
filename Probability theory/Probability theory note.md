@@ -102,7 +102,7 @@ ANS : D -> 基於大數法則，D可以進行更多次博弈，亦更接近於�
 * 林惠玲、陳正蒼:應用統計學四版
 * S. Ghahramani: Fundamentals of Probability (with stochastic processes),3th Edition, Pearson Education Limited(滄海書局)
 
-date:22/9/12
+> date:22/9/12
 
 ## 1-3 Axioms of Probability
 
@@ -186,4 +186,4 @@ $P({H})=\frac{1}{2}$
 
 using Axiom 2 and Axiom 3
 
-date:22/9/13
+> date:22/9/13
