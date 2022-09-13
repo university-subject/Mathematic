@@ -89,3 +89,23 @@ ANS : D -> 基於大數法則，D可以進行更多次博弈，亦更接近於�
 * S. Ghahramani: Fundamentals of Probability (with stochastic processes),3th Edition, Pearson Education Limited(滄海書局)
 
 22/9/12
+
+## 1-3 Axioms of Probability
+
+1933 soviet Andrei Kolmogorov 提出
+
+Certain simple, indisputable and consistent statement without justification.
+
+Note: the classical definition is a simple result of axiometic approach.
+
+## Definitions(Probability Axioms)
+S: Sample Space
+A: event
+P(A): Probability of A
+
+* Axiom 1
+ * P(A) >= 0
+* Axiom 2
+ * P(S) = 1
+* Axiom 3
+ * if {A1, A2, A3 .. An} 
