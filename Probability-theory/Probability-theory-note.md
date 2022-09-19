@@ -257,6 +257,24 @@ $P(A_1\bigcup A_2\bigcup A_3\bigcup A_4)=P(A_1)+P(A_2)+P(A_3)+P(A_4)-P(A_1A_2)-P
 
 $\Rightarrow P(\bigcup_{i=1}^{n}A_i)=\sum_{i=1}^{n}P(A_i)-\sum_{i=1}^{n-1}\sum_{j=i+1}^{n}P(A_iA_j)+\sum_{i=1}^{n-2}\sum_{j=i+1}^{n-1}\sum_{k=j+1}^{n}P(A_iA_jA_k)+...+(-1)^{n-1}P(A_1A_2...A_n)$
 
+### 1.17 read probability
 
+讀ABC報的機率。
+
+$P(A)=0.25,\;P(B)=0.2,\;P(C)=0.13$
+
+$P(AB)=0.1,\;P(AC)=0.08,\;P(BC)=0.05$
+
+$P(ABC)=0.04$
+
+求都不讀的機率：
+
+$\Rightarrow 1-P(A\bigcup B\bigcup C)=1-(0.25+0.2+0.13-0.1-0.08-0.05+0.04)=1-0.39=0.61$
+
+### Theorem1.7 $P(A)=P(AB)+P(AB^C)$
+
+proof:clearly $A=AS=A(B\bigcup B^C)=AB\bigcup AB^C since\;AB\;and\;AB^C\;are\;mutually\;exclusive,$
+
+$P(A)=P(AB\bigcup AB^C)=P(AB)+P(AB^C)$
 
 > 22/9/19
