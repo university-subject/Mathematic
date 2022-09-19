@@ -233,4 +233,16 @@ $\because\;B=BA\bigcup BA^c,\;P(B)=P(BA)+P(BA^c)=P(A)+P(B-A)\rightarrow P(B)-P(A
 
 > date:22/9/13
 
-> date:22/9/19
+### Theorem 1.6 $P(A \bigcup B)=P(A)+P(B)-P(AB)$
+
+> 參考離散，個數：$N(A \bigcup B)=N(A)+N(B)-N(AB)$
+
+proof:$A\bigcup B=A\bigcup(B-AB)$  (see figure 1.3) and $A(B-AB)=\phi$ So $A$ and $B-AB$ are mutually exclusive.
+
+$A\bigcup B=A\bigcup(B-A)=A\bigcup(B-AB)$
+
+$P(A\bigcup B)=P(A)+P(B-AB)=P(A)+(P(B)-P(AB))\rightarrow P(A)+P(B)-P(AB)$
+
+### Example 1.15
+
+> 22/9/19
