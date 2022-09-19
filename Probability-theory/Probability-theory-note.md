@@ -232,3 +232,5 @@ $\because\;B=BA\bigcup BA^c,\;P(B)=P(BA)+P(BA^c)=P(A)+P(B-A)\rightarrow P(B)-P(A
   * right Answer is $P(B-A)=\frac{2}{6}$ since $A\subsetneq B$
 
 > date:22/9/13
+
+> date:22/9/19
