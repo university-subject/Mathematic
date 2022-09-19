@@ -1,6 +1,6 @@
-Collected and noted by : JingShing
-
 # Probability theory note 機率論筆記
+
+* Collected and noted by : JingShing
 
 ## 機率論(一)
 
@@ -276,5 +276,15 @@ $\Rightarrow 1-P(A\bigcup B\bigcup C)=1-(0.25+0.2+0.13-0.1-0.08-0.05+0.04)=1-0.3
 proof:clearly $A=AS=A(B\bigcup B^C)=AB\bigcup AB^C since\;AB\;and\;AB^C\;are\;mutually\;exclusive,$
 
 $P(A)=P(AB\bigcup AB^C)=P(AB)+P(AB^C)$
+
+### Exercise 1.19
+
+32% male smoker, 27% female smoker, what percentage of populations smoked?
+
+32%+27%=59%
+
+## 1-5 Continuity of Probability Functions
+
+$f(x)\;is\;continuous\;at\;c:\;\lim_{x \to c}f(x)=f(lim_{x \to c}x)=f(c)$
 
 > 22/9/19
