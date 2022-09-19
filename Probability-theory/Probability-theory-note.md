@@ -245,4 +245,18 @@ $P(A\bigcup B)=P(A)+P(B-AB)=P(A)+(P(B)-P(AB))\rightarrow P(A)+P(B)-P(AB)$
 
 ### Example 1.15
 
+400 adults, 300 bike or swim or do both. 160 swim, and 120 do both. probability selected are random, bike?
+
+$P(S\bigcup B)=P(S)+P(B)-P(SB)\Rightarrow \frac{300}{400} = \frac{160}{400} + P(B) - \frac{120}{400}\Rightarrow P(B)=\frac{280}{400}=\frac{7}{10}$
+
+## Inclusion-Exclusion Principle排容原理
+
+$P(A_1\bigcup A_2\bigcup A_3)=P(A_1)+P(A_2)+P(A_3)-P(A_1A_2)-P(A_1A_3)-P(A_2A_3)+P(A_1A_2A_3)$
+
+$P(A_1\bigcup A_2\bigcup A_3\bigcup A_4)=P(A_1)+P(A_2)+P(A_3)+P(A_4)-P(A_1A_2)-P(A_1A_3)-P(A_1A_4)-P(A_2A_3)-P(A_2A_4)-P(A_3A_4)+P(A_1A_2A_3)+P(A_1A_2A_4)+P(A_1A_3A_4)+P(A_2A_3A_4)-P(A_1A_2A_3A_4)$
+
+$\Rightarrow P(\bigcup_{i=1}^{n}A_i)=\sum_{i=1}^{n}P(A_i)-\sum_{i=1}^{n-1}\sum_{j=i+1}^{n}P(A_iA_j)+\sum_{i=1}^{n-2}\sum_{j=i+1}^{n-1}\sum_{k=j+1}^{n}P(A_iA_jA_k)+...+(-1)^{n-1}P(A_1A_2...A_n)$
+
+
+
 > 22/9/19
